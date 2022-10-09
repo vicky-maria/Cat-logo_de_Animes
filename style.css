@@ -1,0 +1,14 @@
+:root {
+    --blue: #38369a;
+    --gray: #DADFF7;
+    --pink: #FE64A3;
+}
+
+@font-face {
+    font-family: okine;
+    src: url("made_okine_sans/MADEOkineSansPERSONALUSE-Black.otf");
+}
+
+h1, h2 {
+    font-family: okine;
+}
