@@ -4,11 +4,71 @@
     --pink: #FE64A3;
 }
 
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+
 @font-face {
     font-family: okine;
     src: url("made_okine_sans/MADEOkineSansPERSONALUSE-Black.otf");
 }
 
+header {
+    background-color: var(--gray);
+    max-height: 800px;
+    min-height: 200px;
+}
+
+h1 {
+    color: var(--blue);
+    text-align: center;
+    padding-top: 45px;
+}
+
+header > nav {
+    padding-top: 70px;
+    margin-left: 3px;
+}
+
+a {
+    color: var(--blue);
+    font-family: okine;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: var(--pink);
+    padding: 2px;
+    transition-duration: 1s;
+
+}
+
+main {
+    background-color: var(--pink);
+}
+
+section {
+    padding: 30px;
+}
+
+h2 {
+    color: var(--blue)
+}
+
 h1, h2 {
     font-family: okine;
+}
+
+div {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 200px;
 }
